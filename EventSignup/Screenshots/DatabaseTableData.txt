@@ -1,0 +1,19 @@
+Id Title Description Date Location BannerUrl
+-- ----- ----------- ---- -------- ---------
+1 Tech Conference 2026 A full-day conference about cloud, AI, and enterprise apps. 2026-03-27 00:00:00.0000000 Ottawa Convention Centre 
+2 Web Development Workshop Learn the latest in .NET and React development. 2026-04-15 00:00:00.0000000 Algonquin Tech Hub 
+3 AI & Machine Learning Summit Deep dive into LLMs and generative AI. 2026-05-10 00:00:00.0000000 Toronto Innovation Lab 
+1002 Graduation Gala 2026 The final celebration. 2026-06-25 23:00:00.0000000 Algonquin Grand Hall 
+
+(4 rows affected)
+Id Name Email EventId
+-- ---- ----- -------
+35c912eb-1b45-474a-812b-d03f6bd10c39 Frank Miller frank@example.com 3
+519eeeae-c880-4bf1-afa3-22eb69aff0de Eve Black eve@example.com 3
+943ab0da-dafa-49aa-be71-eda943c60743 Dana White dana@example.com 2
+a89d515f-2494-4bd1-992c-ed4be2e43644 Bob Jones bob@example.com 1
+aa0245e7-f72d-451e-8623-2518c5e50c0b John Doe john.doe@example.com 1002
+e409a95d-08b5-456c-8ea4-858dd24f099b Alice Smith alice@example.com 1
+ec99ac35-8ef4-4bf6-8a78-352fd0d426b6 Charlie Brown charlie@example.com 2
+
+(7 rows affected)

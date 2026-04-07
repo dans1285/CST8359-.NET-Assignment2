@@ -1,0 +1,27 @@
+@model EventSignup.Models.Attendee
+
+@{
+    ViewData["Title"] = "Delete Attendee";
+    var eventId = ViewData["EventId"];
+}
+
+<h1>Delete Attendee</h1>
+<h3>Are you sure you want to delete this attendee?</h3>
+<div>
+    <h4>@Model.Name</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+        
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+    </dl>
+    
+    <form asp-action="DeleteAttendee">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" name="eventId" value="@eventId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="ManageAttendees" asp-route-eventId="@eventId">Back to List</a>
+    </form>
+</div>
